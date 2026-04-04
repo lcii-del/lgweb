@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页 - 天恒乐购科技有限公司</title>
+    <meta
+      name="description"
+      content="天恒乐购科技有限公司 — 专注智慧零售与数字化供应链，为企业提供可靠的技术与运营支持。"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="layout-flex">
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <img
+            class="logo-img"
+            src="img/logo.jpg"
+            alt=""
+            width="140"
+            height="42"
+            decoding="async"
+          />
+          <span>天恒乐购科技</span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="打开菜单"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav aria-label="主导航">
+          <ul class="nav-list">
+            <li><a href="index.html" class="active">首页</a></li>
+            <li><a href="detail.html">公司详情</a></li>
+            <li><a href="support.html">技术支持</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="hero-badge">智慧零售 · 数字供应链</span>
+        <h1>天恒乐购科技有限公司</h1>
+        <p class="hero-lead">
+          我们以技术驱动商业增长，为零售与电商企业提供稳定、可扩展的数字化解决方案，让每一笔交易更顺畅、每一次服务更安心。
+        </p>
+        <div class="hero-actions">
+          <a href="detail.html" class="btn btn-primary">了解我们</a>
+          <a href="support.html" class="btn btn-ghost">获取支持</a>
+        </div>
+        <div class="stats" role="group" aria-label="企业概况">
+          <div class="stat">
+            <strong>8+</strong>
+            <span>年行业沉淀</span>
+          </div>
+          <div class="stat">
+            <strong>200+</strong>
+            <span>合作客户</span>
+          </div>
+          <div class="stat">
+            <strong>99.9%</strong>
+            <span>核心系统可用性目标</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="sec-services">
+        <div class="section-head">
+          <h2 id="sec-services">核心业务</h2>
+          <p>从平台搭建到运维保障，覆盖企业数字化关键环节。</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🛒</div>
+            <h3>零售电商平台</h3>
+            <p>
+              多终端商城、会员与营销中台，支持高并发与灵活促销策略，助力品牌快速上线与规模化运营。
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📦</div>
+            <h3>供应链协同</h3>
+            <p>
+              采购、仓储、物流一体化视图，数据实时同步，降低缺货与积压风险，提升周转效率。
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔒</div>
+            <h3>安全与合规</h3>
+            <p>
+              支付与隐私数据分级防护，配合审计与备份策略，满足企业级安全与合规要求。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="sec-why">
+        <div class="section-head">
+          <h2 id="sec-why">为什么选择天恒乐购</h2>
+          <p>长期主义的产品理念，与客户共同成长的合作方式。</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">⚡</div>
+            <h3>快速响应</h3>
+            <p>专属客户经理与技术对接通道，问题分级处理，重要事项优先保障。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🧩</div>
+            <h3>可扩展架构</h3>
+            <p>模块化设计便于按需扩容，业务增长时无需推倒重来。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>落地经验</h3>
+            <p>深耕零售与电商场景，方案贴合实际业务流程，减少试错成本。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">天恒乐购科技有限公司</div>
+          <p class="footer-meta">
+            © <span id="year"></span> 保留所有权利。本站点为演示用途的企业介绍页面。
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">首页</a>
+          <a href="detail.html">公司详情</a>
+          <a href="support.html">技术支持</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

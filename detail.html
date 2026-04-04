@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>公司详情 - 天恒乐购科技有限公司</title>
+    <meta
+      name="description"
+      content="天恒乐购科技有限公司简介、发展历程、服务范围与企业文化。"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="layout-flex">
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <img
+            class="logo-img"
+            src="img/logo.jpg"
+            alt=""
+            width="140"
+            height="42"
+            decoding="async"
+          />
+          <span>天恒乐购科技</span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="打开菜单"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav aria-label="主导航">
+          <ul class="nav-list">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="detail.html" class="active">公司详情</a></li>
+            <li><a href="support.html">技术支持</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <header class="page-hero">
+        <h1>公司详情</h1>
+        <p>
+          天恒乐购科技有限公司致力于用技术连接商家与消费者，打造可持续增长的数字化商业基础设施。
+        </p>
+      </header>
+
+      <div class="prose">
+        <h2>公司简介</h2>
+        <p>
+          公司成立于国内零售数字化加速发展的时期，团队由电商、供应链与企业级
+          软件背景的研发与产品人员组成。我们以「恒久可靠、乐享购物」为愿景，帮助客户在多变的市场中保持系统稳定与体验一致。
+        </p>
+
+        <h2>服务范围</h2>
+        <ul>
+          <li>B2C / B2B 电商平台定制与二次开发</li>
+          <li>订单、库存、财务等业务中台集成</li>
+          <li>数据分析看板与运营工具</li>
+          <li>云上部署、监控告警与容灾方案咨询</li>
+        </ul>
+
+        <h2>发展历程（摘要）</h2>
+        <p>
+          从早期服务区域连锁商超的线上化项目，逐步扩展到全国性品牌的全渠道运营支撑；近年重点投入高可用架构与自动化运维能力，以适配大促与突发流量场景。
+        </p>
+
+        <h2>企业文化</h2>
+        <p>
+          我们倡导务实沟通、数据说话与持续学习。对内强调代码质量与文档沉淀，对外以契约精神履行交付与售后承诺，与客户建立长期信任关系。
+        </p>
+
+        <p style="margin-top: 2rem">
+          <a href="support.html" class="btn btn-primary">联系技术支持</a>
+          <a href="index.html" class="btn btn-ghost" style="margin-left: 0.5rem"
+            >返回首页</a
+          >
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">天恒乐购科技有限公司</div>
+          <p class="footer-meta">
+            © <span id="year"></span> 保留所有权利。
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">首页</a>
+          <a href="detail.html">公司详情</a>
+          <a href="support.html">技术支持</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
